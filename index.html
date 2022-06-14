@@ -17,8 +17,8 @@
   <link rel="../apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -29,8 +29,9 @@
 <header>
     <div class="content-wrapper">
         <a href="http://www."><img src="" alt="logo"></a>
-        <div class="header-divider"> What type of spacing be here in the divider section, have not seen any spacing difference with or without this div?
-          (the space in between the logo and navigation) </div>
+        <div class="header-divider"> 
+          <!-- What type of spacing be here in the divider section, have not seen any spacing difference with or without this div?
+          (the space in between the logo and navigation)--> </div>
         <nav>
             <ul>
                 <li><a href="faq/index.html" target="_blank">FAQ</a></li>
@@ -41,23 +42,30 @@
       </header> 
 
 <main>
-    <section class="girl">
-      <div class="hero-area">
+    <section class="hero-area">
+      <div class="content-wrapper">
         <img scr="" alt="girl-looking-left">
         <h1>Retreat from the desk, return refresh.</h1>
     </div>
     </section>
+
     <aside class="bgirl">
+      <div class="content-wrapper">
+        <div class="form-description">
         <h3>Want to join the next retreat?</h3>
         <p>Find out when we are holding our next retreat and how your company or team can sign up!</p>
         <h3>Find out more</h3>
         <input type="text" name="name" value="email address">
         <input type="button" value="Download Itinerary">
+      </div>
+    </div>
     </aside>
+
     <section class="features">
       <div class="content-wrapper">
-      <h1>Have the work week you always dreamed of -- without the bad wifi.</h1>
-     <article> 
+      <h2>Have the work week you always dreamed of -- without the bad wifi.</h2>
+      <div class="features-items">
+      <article> 
       <p class="1"><img scr="" alt="tent"></p>
       <p class="description">Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
      </article> 
@@ -83,10 +91,13 @@
     </article>  
     </div>
     </section>
+  </div>
+
       <section class="reviews">
       <div class="content-wrapper">
-      <h1> Be a better team in 5 days, like these.</h1>
+      <h2> Be a better team in 5 days, like these.</h2>
       <img scr="" alt="group-pic">
+      <article>
       <div class="content-wrapper">
       <h3>LeCrue Bottling Co. October 2017</h3>
       <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -94,6 +105,7 @@
         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
     </div>
+  </article>
       </section>
 </main>
 
